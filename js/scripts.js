@@ -49,9 +49,9 @@ Ticket.prototype.assignId = function() {
   else if (newTicket1.movieTitle === "The Truman Show") {
     cost += 18.99;
   }
-  // else {
-  //   console.log("Problem");
-  // }
+   else {
+
+   }
 
   if (newTicket1.time === "Morning") {
     cost += 7.50;
@@ -62,18 +62,14 @@ Ticket.prototype.assignId = function() {
   else if (newTicket1.time === "Evening") {
     cost += 1000.15;
   }
-  // else {
-  //   console.log("Problem");
-  // }
+   else {
+
+ }
 
 
 console.log(cost);
   return cost;
 };
-
-// function displayTicketDetails(newTicket) {
-//   let ticketPrice = 
-// }
 
 $(document).ready(function() {
   $("form#chooseTicket").submit(function(event) {
